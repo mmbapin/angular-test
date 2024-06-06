@@ -72,10 +72,10 @@
             "buildTarget": "angular-testing-course:build"
           }
         },
-
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
+            "codeCoverage": true,
             "polyfills": [
               "zone.js",
               "zone.js/testing"
